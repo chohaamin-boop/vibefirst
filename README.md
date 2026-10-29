@@ -17,6 +17,7 @@
 - **기술 스택**: Next.js (App Router), Tailwind CSS, Supabase PostgreSQL, Vercel
 - **기획서**: [docs/pick-one-plan.md](docs/pick-one-plan.md)
 - **역할 분담**: [docs/roles.md](docs/roles.md)
+- **작업 계획**: [docs/work-plan.md](docs/work-plan.md)
 
 ## 디렉터리 구조
 
