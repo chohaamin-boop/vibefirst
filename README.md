@@ -12,9 +12,10 @@
 
 ## 프로젝트 개요
 
-- **주제**: TBD
-- **목표**: TBD
-- **기술 스택**: TBD (정해지면 `docs/decisions.md`에 기록)
+- **주제**: PICK ONE - 질문 1개와 선택지 3개로 만드는 투표 웹사이트
+- **목표**: 2시간 안에 투표 웹사이트를 만들고 Vercel에 배포
+- **기술 스택**: Next.js (App Router), Tailwind CSS, Supabase PostgreSQL, Vercel
+- **기획서**: [docs/pick-one-plan.md](docs/pick-one-plan.md)
 
 ## 디렉터리 구조
 
