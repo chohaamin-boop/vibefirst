@@ -5,7 +5,9 @@ AI 코딩 에이전트(Claude Code, Codex, Cursor 등)가 이 저장소에서 �
 ## 프로젝트
 
 - 3인 팀 바이브 코딩 대회 프로젝트 (`vibefirst`).
-- 주제와 기술 스택은 아직 미정(TBD)입니다. 확정되면 `docs/decisions.md`에 기록하고, 이 문서의 "명령어" 섹션을 채웁니다.
+- 주제: PICK ONE, 선택지 3개짜리 투표 웹사이트. 기획서와 API 계약은 `docs/pick-one-plan.md`를 따릅니다.
+- 스택: Next.js (App Router), Tailwind CSS, Supabase PostgreSQL, Vercel. 결정 기록은 `docs/decisions.md`에 있습니다.
+- Supabase service role 키는 서버 환경변수에만 두고 브라우저 코드에 넣지 않습니다.
 
 ## 디렉터리
 
