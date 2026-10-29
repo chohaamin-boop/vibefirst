@@ -31,11 +31,15 @@
 
 ## 시작하기
 
-스택 확정 후 설치/실행 방법을 여기에 적습니다.
-
 ```bash
-# 예시
-# npm install && npm run dev
+npm install
+npm run dev      # http://localhost:3000
 ```
+
+| 명령 | 설명 |
+| --- | --- |
+| `npm run dev` | 개발 서버 |
+| `npm run build` | 프로덕션 빌드 |
+| `npm run lint` | ESLint |
 
 협업 규칙은 [CONTRIBUTING.md](CONTRIBUTING.md)를 참고하세요.
