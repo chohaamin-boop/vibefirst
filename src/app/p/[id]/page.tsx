@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { Suspense, useCallback, useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import CopyLinkButton from "@/components/CopyLinkButton";
 import ResultChart from "@/components/ResultChart";
@@ -13,6 +13,14 @@ const POLL_INTERVAL_MS = 3000;
 type LoadError = { notFound: boolean; message: string };
 
 export default function PollPage() {
+  return (
+    <Suspense fallback={<p className="mt-4 text-zinc-500">불러오는 중...</p>}>
+      <PollView />
+    </Suspense>
+  );
+}
+
+function PollView() {
   const { id } = useParams<{ id: string }>();
   const [poll, setPoll] = useState<PollDetail | null>(null);
   const [error, setError] = useState<LoadError | null>(null);
