@@ -16,6 +16,7 @@
 - **목표**: 2시간 안에 투표 웹사이트를 만들고 Vercel에 배포
 - **기술 스택**: Next.js (App Router), Tailwind CSS, Supabase PostgreSQL, Vercel
 - **기획서**: [docs/pick-one-plan.md](docs/pick-one-plan.md)
+- **역할 분담**: [docs/roles.md](docs/roles.md)
 
 ## 디렉터리 구조
 
