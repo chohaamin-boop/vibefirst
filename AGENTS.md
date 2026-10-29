@@ -18,7 +18,14 @@ AI 코딩 에이전트(Claude Code, Codex, Cursor 등)가 이 저장소에서 �
 
 ## 명령어
 
-스택 확정 전이라 아직 없습니다. 설치/실행/테스트/린트 명령이 정해지면 여기에 추가하세요.
+```bash
+npm install     # 의존성 설치
+npm run dev     # 개발 서버 (http://localhost:3000)
+npm run build   # 프로덕션 빌드
+npm run lint    # ESLint
+```
+
+테스트 명령은 아직 없습니다.
 
 ## 작업 규칙
 

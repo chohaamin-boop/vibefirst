@@ -21,3 +21,8 @@ venv/
 
 # Logs
 *.log
+
+# Next.js
+*.tsbuildinfo
+next-env.d.ts
+.vercel
